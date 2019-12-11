@@ -1239,3 +1239,84 @@ section
 {
 	color: #ff9000;
 }
+
+/*********************************
+10. Speakers
+*********************************/
+
+.speakers
+{
+	background: #f5f8fb;
+	padding-top: 101px;
+	padding-bottom: 103px;
+}
+.speakers_row
+{
+	margin-top: 58px;
+}
+.speaker
+{
+	margin-bottom: 27px;
+}
+.speaker_image::after
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	border: solid 1px #7f66ff;
+	background: rgba(127,102,255,0.67);
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.speaker:hover .speaker_image::after
+{
+	visibility: visible;
+	opacity: 1;
+}
+.speaker_info
+{
+	position: absolute;
+	left: 22px;
+	bottom: 22px;
+	width: 191px;
+	height: 67px;
+	background: #7f66ff;
+	padding-left: 21px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.speaker:hover .speaker_info
+{
+	background: #221831;
+}
+.speaker_name a
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 1.2;
+}
+.speaker_name a:hover
+{
+	color: #7f66ff;
+}
+.speaker_title
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-top: 1px;
+}
