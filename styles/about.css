@@ -933,3 +933,50 @@ section
 	padding-bottom: 143px;
 	padding-right: 190px;
 }
+
+/*********************************
+7. Milestones
+*********************************/
+
+.milestones
+{
+	background: #ffffff;
+	padding-top: 102px;
+	padding-bottom: 25px;
+}
+.milestone
+{
+	width: 100%;
+	margin-bottom: 60px;
+	padding-left: 22px;
+}
+.milestone_icon
+{
+	display: inline-block;
+	height: 62px;
+	width: 62px;
+}
+.milestone_icon img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+.milestone_content
+{
+	padding-left: 18px;
+}
+.milestone_counter
+{
+	font-size: 60px;
+	font-weight: 700;
+	color: #0a2642;
+	line-height: 0.75;
+}
+.milestone_text
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: #0a2642;
+	margin-top: 11px;
+	line-height: 1.2;
+}
