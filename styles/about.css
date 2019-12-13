@@ -1086,3 +1086,37 @@ section
 {
 	background: #0a2642;
 }
+
+/*********************************
+9. Logos
+*********************************/
+
+.logos
+{
+	background: #ffffff;
+	padding-bottom: 87px;
+}
+.logos_text
+{
+	margin-top: 38px;
+}
+.logos_slider_container
+{
+	margin-top: 54px;
+}
+.logos_slider .slide
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 76px;
+}
+.owl-carousel.logos_slider .owl-item img
+{
+	width: auto;
+}
