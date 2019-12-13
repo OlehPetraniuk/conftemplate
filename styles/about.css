@@ -801,3 +801,72 @@ section
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
+
+/*********************************
+5. Home
+*********************************/
+
+.home
+{
+	height: 511px;
+}
+.home_container
+{
+	position: absolute;
+	top: 59.85%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0px;
+	width: 100%;
+}
+.home_content
+{
+
+}
+.home_title h1
+{
+	font-size: 90px;
+	font-weight: 700;
+	color: #ffffff;
+	font-style: italic;
+	line-height: 0.75;
+}
+.breadcrumbs
+{
+	display: inline-block;
+	background: #7f66ff;
+	height: 38px;
+	padding-left: 23px;
+	padding-right: 25px;
+	margin-top: 21px;
+}
+.breadcrumbs ul
+{
+	height: 100%;
+}
+.breadcrumbs ul li
+{
+	position: relative;
+}
+.breadcrumbs ul li,
+.breadcrumbs ul li a,
+.breadcrumbs ul li::after
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.breadcrumbs ul li a:hover
+{
+	color: #ff9000;
+}
+.breadcrumbs ul li:not(:last-of-type)::after
+{
+	display: inline-block;
+	content: '/';
+	margin-left: 4px;
+	margin-right: 4px;
+}
