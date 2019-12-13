@@ -870,3 +870,66 @@ section
 	margin-left: 4px;
 	margin-right: 4px;
 }
+
+/*********************************
+6. Intro
+*********************************/
+
+.intro
+{
+	background: #f5f8fb;
+}
+.container_wrapper
+{
+	width: 100%;
+}
+.container_wrapper > .container
+{
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.container_wrapper > .container > .row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+.container_wrapper > .container > .row > div[class^='col']
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.intro_image
+{
+	height: 100%;
+}
+.intro_image > img
+{
+	display: none;
+}
+.intro_left_content
+{
+	padding-left: 190px;
+	padding-top: 98px;
+	padding-bottom: 109px;
+	padding-right: 200px;
+}
+.intro_title h1
+{
+	line-height: 1;
+}
+.intro_text
+{
+	margin-top: 27px;
+}
+.intro_button
+{
+	margin-top: 41px;
+}
+.intro_right_content
+{
+	padding-top: 149px;
+	padding-left: 205px;
+	padding-bottom: 143px;
+	padding-right: 190px;
+}
