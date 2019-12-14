@@ -884,3 +884,157 @@ section
 	margin-left: 4px;
 	margin-right: 4px;
 }
+
+/*********************************
+6. Elements
+*********************************/
+
+.elements
+{
+	background: #ffffff;
+	padding-top: 93px;
+	padding-bottom: 33px;
+}
+.elements_title
+{
+	font-size: 30px;
+	font-weight: 700;
+	color: #0a2642;
+}
+
+/*********************************
+6.1 Buttons
+*********************************/
+
+.buttons_container
+{
+	margin-top: 68px;
+}
+.buttons_container > .button:not(:last-child)
+{
+	margin-right: 17px;
+}
+.buttons_container > .button
+{
+	margin-bottom: 17px;
+}
+
+/*********************************
+6.2 Accordions
+*********************************/
+
+.acc_tabs
+{
+	margin-top: 75px;
+}
+.acc_tabs_row
+{
+	margin-top: 68px;
+}
+.accordion_container:not(:last-child)
+{
+	margin-bottom: 13px;
+}
+.accordion
+{
+	height: 57px;
+	width: 100%;
+	background: #f4f8fb;
+	padding-left: 29px;
+	cursor: pointer;
+	color: #0a2642;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 57px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion:hover
+{
+	background: #7360ff;
+	color: #ffffff;
+}
+.accordion.active
+{
+	background: #7360ff;
+	color: #ffffff;
+}
+.accordion.active:hover
+{
+	
+}
+.accordion.active:hover::after
+{
+	
+}
+.accordion div
+{
+	max-width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.accordion::after
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 17px;
+	height: 100%;
+	content: '+';
+	font-size: 16px;
+	color: #0a2642;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion.active::after
+{
+	content: '-';
+	color: #FFFFFF;
+}
+.accordion:hover::after
+{
+	color: #ffffff;
+}
+.accordion_panel
+{
+	padding-right: 8px;
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.accordion_title
+{
+
+}
+.accordion_panel > div
+{
+	padding-top: 41px;
+	padding-bottom: 20px;
+}
+.accordion_panel p
+{
+	margin-top: 28px;
+}
