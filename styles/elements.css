@@ -1038,3 +1038,158 @@ section
 {
 	margin-top: 28px;
 }
+
+/*********************************
+6.3 Tabs
+*********************************/
+
+.tabs_container
+{
+	width: 100%;
+}
+.tab
+{
+	height: 57px;
+	background: #f4f8fb;
+	font-size: 16px;
+	color: #0a2642;
+	font-weight: 500;
+	line-height: 57px;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-bottom: 9px;
+	padding-left: 27px;
+	padding-right: 25px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab:hover
+{
+	background: #7360ff;
+	color: #ffffff;
+}
+.tab:not(:last-child)
+{
+	margin-right: 7px;
+}
+.tab.active
+{
+	background: #7360ff;
+	color: #ffffff;
+}
+.tab_panels
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 14px;
+	padding-bottom: 32px;
+}
+.tab_panel
+{
+	display: none !important;
+	width: 100%;
+	height: 100%;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.tab_panel.active
+{
+	display: block !important;
+}
+.tab_panel_content
+{
+	padding-top: 31px;
+}
+.tab_panel_content p:last-of-type
+{
+	margin-bottom: 0;
+}
+.tab_text
+{
+	
+}
+.tab_text p
+{
+	margin-top: 28px;
+}
+.tab_image
+{
+	width: 100%;
+}
+.tab_image img
+{
+	max-width: 100%;
+}
+
+/*********************************
+6.4 Loaders
+*********************************/
+
+.loaders
+{
+	margin-top: 62px;
+}
+.loaders_container
+{
+	margin-top: 70px;
+}
+.loader_container
+{
+	width: calc(100% / 4);
+	height: 153px;
+	margin-bottom: 60px;
+}
+.loader
+{
+	width: 153px;
+	height: 153px;
+	background: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+.loader_content
+{
+	position: absolute;
+	left: 50%;
+	bottom: 55px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	font-size: 18px;
+	font-weight: 500;
+	color: #232323;
+	white-space: nowrap;
+	text-align: center;
+}
+.loader_title
+{
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+	line-height: 0.75;
+	white-space: nowrap;
+}
+.progressbar-text
+{
+	top: 44.5% !important;
+	font-size: 30px !important;
+	font-weight: 700 !important;
+	color: #0a2642 !important;
+	line-height: 0.75 !important;
+}
