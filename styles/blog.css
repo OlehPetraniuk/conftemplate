@@ -869,3 +869,256 @@ section
 	margin-left: 4px;
 	margin-right: 4px;
 }
+
+/*********************************
+6. Blog
+*********************************/
+
+.blog
+{
+	background: #ffffff;
+	padding-top: 103px;
+	padding-bottom: 97px;
+}
+.blog_post
+{
+	padding-bottom: 103px;
+}
+.blog_post_container
+{
+	padding-left: 25px;
+	padding-right: 26px;
+	padding-bottom: 29px;
+}
+.blog_post_content
+{
+	background: #ffffff;
+	border: solid 1px #d8e5e7;
+	margin-top: -45px;
+	padding-bottom: 68px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 27px;
+}
+.blog_post_date
+{
+	font-size: 14px;
+	font-weight: 700;
+	color: #7f66ff;
+	text-transform: uppercase;
+}
+.blog_post_title
+{
+	margin-top: 14px;
+}
+.blog_post_title h3 a
+{
+	font-size: 30px;
+	font-weight: 700;
+	color: #0a2642;
+}
+.blog_post_title h3 a:hover
+{
+	color: #7f66ff;
+}
+.blog_post_info
+{
+	margin-top: 7px;
+}
+.blog_post_info ul li
+{
+	position: relative;
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+}
+.blog_post_info > ul > li > a
+{
+	color: #8886fe;
+}
+.blog_post_info > ul > li > ul > li > a
+{
+	color: #68727c;
+}
+.blog_post_info ul li a:hover
+{
+	color: #ff9000;
+}
+.blog_post_info > ul > li:not(:last-of-type)::after
+{
+	display: inline-block;
+	content: '|';
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.blog_post_info > ul > li > ul > li:not(:last-of-type)::after
+{
+	display: inline-block;
+	content: ',';
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+	margin-right: 4px;
+	margin-left: 1px;
+}
+.blog_post_text
+{
+	margin-top: 31px;
+}
+.blog_post_button
+{
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: -30px;
+}
+.page_nav
+{
+	margin-top: -28px;
+}
+.page_nav ul li:not(:last-of-type)
+{
+	margin-right: 5px;
+}
+.page_nav ul li a
+{
+	font-size: 14px;
+	font-weight: 700;
+	color: #0a2642;
+}
+.page_nav ul li.active a,
+.page_nav ul li a:hover
+{
+	color: #8886fe;
+}
+
+/*********************************
+7. Sidebar
+*********************************/
+
+.search_form
+{
+	display: block;
+	width: 100%;
+}
+.search_input
+{
+	width: 100%;
+	height: 44px;
+	padding-left: 15px;
+	background: #ffffff;
+	border: solid 1px #d8e5e7;
+	outline: none;
+	font-size: 15px;
+	font-weight: 500;
+	color: #68727c;
+}
+.search_input::-webkit-input-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	color: #68727c !important;
+}
+.search_input:-moz-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	color: #68727c !important;
+}
+.search_input::-moz-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	color: #68727c !important;
+} 
+.search_input:-ms-input-placeholder
+{ 
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	color: #68727c !important;
+}
+.search_input::input-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	color: #68727c !important;
+}
+.categories
+{
+	margin-top: 77px;
+}
+.sidebar_title
+{
+	font-size: 24px;
+	font-weight: 700;
+	color: #0a2642;
+	line-height: 1.2;
+}
+.sidebar_list ul
+{
+	padding-left: 37px;
+	margin-top: 44px;
+}
+.sidebar_list ul li:not(:last-of-type)
+{
+	margin-bottom: 12px;
+}
+.sidebar_list ul li a
+{
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+}
+.sidebar_list ul li a:hover
+{
+	color: #8886fe;
+}
+.archives
+{
+	margin-top: 70px;
+}
+.latest_posts
+{
+	margin-top: 69px;
+}
+.latest_posts_container
+{
+	margin-top: 53px;
+}
+.latest_post:not(:last-child)
+{
+	margin-bottom: 27px;
+}
+.latest_post_content
+{
+	padding-left: 16px;
+	padding-top: 10px;
+}
+.latest_post_title a
+{
+	font-size: 15px;
+	font-weight: 700;
+	color: #0a2642;
+}
+.latest_post_title a:hover,
+.latest_post_date a:hover
+{
+	color: #8886fe;
+}
+.latest_post_date
+{
+	margin-top: 6px;
+}
+.latest_post_date a
+{
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+}
